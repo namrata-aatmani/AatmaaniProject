@@ -5,6 +5,7 @@ MAINTAINER "namratamansur@gmail.com"
 RUN apt-get update
 #install git and express with express generator
 RUN apt-get install git -y
+RUN ls
 RUN npm install -g express
 RUN npm install -g express-generator
 RUN git clone https://github.com/namrata4447/AatmaaniProject.git
