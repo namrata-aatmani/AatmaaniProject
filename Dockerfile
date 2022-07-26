@@ -12,6 +12,6 @@ WORKDIR /AatmaaniProject/nodewebsite/express-website
 #install npm and nodemailer
 RUN npm install
 RUN npm install --save nodemailer
-ENTRYPOINT npm start
+#ENTRYPOINT npm start
 EXPOSE 3000
 
